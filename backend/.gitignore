@@ -1,0 +1,7 @@
+node_modules
+database.sqlite
+
+uploads/**
+!uploads/.gitkeep
+
+yarn-error.log
