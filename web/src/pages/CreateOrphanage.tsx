@@ -14,7 +14,7 @@ import '../styles/pages/create-orphanage.css';
 export default function OrphanagesMap() {
   const history = useHistory();
 
-  const [position, setPosition] = useState({ latitude: 0, longitude: 0})
+  const [position, setPosition] = useState({ latitude: 0, longitude: 0 })
 
   const [name, setName] = useState('');
   const [about, setAbout] = useState('');
@@ -54,7 +54,7 @@ export default function OrphanagesMap() {
 
     const { latitude, longitude } = position;
 
-    const data =  new FormData();
+    const data = new FormData();
 
     data.append('name', name);
     data.append('about', about);
@@ -84,7 +84,7 @@ export default function OrphanagesMap() {
             <legend>Dados</legend>
 
             <Map
-              center={[-27.2092052,-49.6401092]}
+              center={[-8.0555435, -34.8790755]}
               style={{ width: '100%', height: 280 }}
               zoom={15}
               onClick={handleMapClick}
@@ -93,7 +93,7 @@ export default function OrphanagesMap() {
                 url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
               />
 
-              { position.latitude !== 0 && (
+              {position.latitude !== 0 && (
                 <Marker
                   interactive={false}
                   icon={mapIcon}
@@ -134,7 +134,7 @@ export default function OrphanagesMap() {
                 </label>
               </div>
 
-              <input multiple onChange={handleSelectImages} type="file" id="image[]"/>
+              <input multiple onChange={handleSelectImages} type="file" id="image[]" />
             </div>
           </fieldset>
 
