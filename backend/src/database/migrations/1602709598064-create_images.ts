@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
-
 export class createImages1602709598064 implements MigrationInterface {
 
   public async up(queryRunner: QueryRunner): Promise<void> {

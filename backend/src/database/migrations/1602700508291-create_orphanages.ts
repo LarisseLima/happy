@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
-
 export class createOrphanages1602700508291 implements MigrationInterface {
   // CRIA A TABELA
   public async up(queryRunner: QueryRunner): Promise<void> {
