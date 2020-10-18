@@ -55,9 +55,12 @@ export default function OrphanageData() {
             } as any);
         });
 
-        await api.post('orphanages', data);
-
-        navigation.navigate('OrphanagesMap');
+        try {
+            await api.post('orphanages', data);
+            navigation.navigate('OrphanagesMap');
+        } catch (error) {
+            console.error(error)
+        }
     }
 
     async function handleSelectImages() {
