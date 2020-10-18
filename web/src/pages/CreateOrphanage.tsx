@@ -2,13 +2,10 @@ import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
 import { useHistory } from 'react-router-dom';
-
 import { FiPlus } from "react-icons/fi";
-
 import Sidebar from '../components/Sidebar';
 import mapIcon from '../utils/mapIcon';
 import api from '../services/api';
-
 import '../styles/pages/create-orphanage.css';
 
 export default function OrphanagesMap() {
