@@ -2,8 +2,11 @@
   <img src=".github/HappyLogo.png">
 </div>
 
+<h3 align="center"> HAPPY
+
+
 <h1 align="center">
-  Happy
+    <img src=".github/happy-interface.png">
 </h1>
 
 
@@ -60,6 +63,8 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
   #Iniciar a aplicação
   yarn start
 ```
+Vá para http://localhost:3333 para ver o website.
+
 ## Para rodar a aplicação na parte do cliente mobile:
 ```bash
   #Navegar e baixar as depêndencias mobile
