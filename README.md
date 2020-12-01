@@ -37,7 +37,7 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 
 
 # :desktop_computer: Instalação e Execução
-**Antes de iniciar, é necessário ter o [NodeJs](https://nodejs.org/en/) e o [Yarn](https://yarnpkg.com/) baixado na máquina, bem como o aplicativo [Expo](https://expo.io/) no celular para a aplicação mobile**
+**Antes de iniciar, é necessário ter o [NodeJs](https://nodejs.org/en/) ou [Yarn](https://yarnpkg.com/) baixado na máquina, bem como o aplicativo [Expo](https://expo.io/) no celular para a aplicação mobile**
 
 ## Comando para clonar o repositório: 
 ```bash
@@ -58,10 +58,10 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 ```bash
   #Navegar e baixar as depêndencias web
   cd web
-  yarn install
+  yarn install ou npm install
   
   #Iniciar a aplicação
-  yarn start
+  yarn start ou npm start
 ```
 Vá para http://localhost:3333 para ver o website.
 
@@ -69,10 +69,10 @@ Vá para http://localhost:3333 para ver o website.
 ```bash
   #Navegar e baixar as depêndencias mobile
   cd mobile
-  yarn install
+  yarn install ou npm install
   
   #Iniciar a aplicação
-  yarn start
+  yarn start ou npm start
 ```
 
 # :scroll: Licença
