@@ -17,7 +17,7 @@
 * [Licença](#scroll-licença)
 
 # :recycle: Sobre
-O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças feliz. Esse projeto possui uma versão browser e mobile. 💜
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais felizes. Esse projeto possui uma versão browser e mobile. 💜
 
 # :clipboard: Tecnologias Utilizadas
 * [Yarn](https://yarnpkg.com/)
